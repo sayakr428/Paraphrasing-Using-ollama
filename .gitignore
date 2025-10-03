@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Checkpoints / caches
+paraphrase_cache.sqlite
+processed_rows.json
+paraphrase_checkpoint.parquet
+
+# Excel data (skip all by default; keep README)
+*.xlsx
+!README.md
+
+# OS/editor
+.DS_Store
+*.swp
